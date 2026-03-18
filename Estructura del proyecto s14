@@ -1,0 +1,14 @@
+SecureNodeProject/
+├── __tests__/
+│   ├── unit/
+│   │   └── logic.test.js       # Prueba Actividad A
+│   ├── integration/
+│   │   └── App.test.js         # Prueba Actividad B
+├── maestro/
+│   └── camera_flow.yaml        # Script Actividad C (E2E)
+├── hooks/
+│   ├── useCameraManager.js
+│   └── useLocationManager.js
+├── App.js                      # Código principal
+├── app.json                    # Configuración de permisos
+└── package.json                # Dependencias de Jest y Testing Library
