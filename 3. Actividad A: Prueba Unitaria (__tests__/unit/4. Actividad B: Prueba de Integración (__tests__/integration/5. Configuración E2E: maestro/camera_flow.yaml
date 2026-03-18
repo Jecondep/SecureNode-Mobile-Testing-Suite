@@ -1,0 +1,7 @@
+appId: com.securenode.solutions
+---
+- launchApp
+- assertVisible: "SecureNode Solutions"
+- tapOn: "Activar Hardware de Cámara"
+- assertVisible: "AVISO DE SEGURIDAD"
+- tapOn: "Entendido"
